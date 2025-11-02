@@ -4,6 +4,11 @@
       "source": "https://www.mytranscendence.org/(.*)",
       "destination": "https://mytranscendence.org/$1",
       "permanent": true
+    },
+    {
+      "source": "https://transcendence-website.vercel.app/(.*)",
+      "destination": "https://mytranscendence.org/$1",
+      "permanent": true
     }
   ]
 }
