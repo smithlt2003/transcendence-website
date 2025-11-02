@@ -8,7 +8,10 @@ import { CheckCircle, ArrowRight, Building2, Users2, ShieldCheck, HeartHandshake
 
 const FORM_ENDPOINT = "/api/form";
 
-async function handleSubmit(e: React.FormEvent<HTMLFormElement>, formName: string) {
+async function handleSubmit(
+  e: React.FormEvent<HTMLFormElement>,
+  formName: string = "Fast Application"
+) {
   e.preventDefault();
   const form = e.currentTarget;
   const data = new FormData(form);
