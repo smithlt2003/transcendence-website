@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #0f766e; /* teal-700 */
+}
+html { scroll-behavior: smooth; }
